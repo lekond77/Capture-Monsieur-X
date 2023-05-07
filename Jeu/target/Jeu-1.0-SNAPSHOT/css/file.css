@@ -1,0 +1,71 @@
+#banner{
+    width: 30em;
+    height: 100%;
+    background-color:   #e6e9e6;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 0.5rem;
+    padding: 20px;
+}
+
+#jouer div{
+    margin: 1em;
+}
+
+#jouer div, #div{
+    display: flex;
+    align-items: baseline;
+    justify-content:space-between;
+}
+
+table{
+    width: 30em;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid black;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+}
+
+td{
+  
+    color:blue;
+}
+
+input[type="submit"]{
+    background-color: #bfbfbf;
+    cursor: pointer;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    box-shadow: 1px 1px 0.1rem;
+
+}
+
+input[type="submit"]:hover, button:hover{
+    filter: brightness(1.2);
+}
+.erreur{
+    color:red;
+    
+}
+h1{
+    padding-right: 0.5em;
+}
+
+button{
+    width: 5em;
+    padding: 1px;
+    box-shadow: 1px 1px 0.05rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#jouer label, input[type="radio"]{
+     cursor: pointer;
+}

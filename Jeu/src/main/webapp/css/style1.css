@@ -1,0 +1,20 @@
+
+#banner{
+    width: 18em;
+    height: 20em;
+    background-color:   #e6e9e6;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10em;
+    border-radius: 0.5rem;
+    padding: 15px;
+}
+
+p{
+  font-size: 1.3em;  
+ 
+}
+#error{
+     color:red;
+    
+}

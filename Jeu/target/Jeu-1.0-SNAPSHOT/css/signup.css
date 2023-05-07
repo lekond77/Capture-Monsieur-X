@@ -1,0 +1,26 @@
+#banner{
+    width: 25em;
+    height: 30em;
+}
+
+input{
+    width: 60%;
+}
+
+label{
+    display:flex;
+    width: 20em;
+    justify-content: space-between;
+     align-items:baseline;
+     margin-bottom: -0.5em
+}
+
+#compte{
+    width: 20em;
+}
+input[type="submit"]{
+
+     margin-right: 90px;
+
+}
+
