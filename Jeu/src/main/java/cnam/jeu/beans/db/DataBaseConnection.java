@@ -12,8 +12,8 @@ public class DataBaseConnection {
     public static Connection chargerBaseDonnes() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String dbUrl = "jdbc:mysql://localhost:3306/jeu?serverTimezone=Europe/Paris&useSSL=false";
-        String user = "jeu";
-        String password = "java123";
+        String user = "user";
+        String password = "pass";
         return  DriverManager.getConnection(dbUrl, user, password);
 
     }

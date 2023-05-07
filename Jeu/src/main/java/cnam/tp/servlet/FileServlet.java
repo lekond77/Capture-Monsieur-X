@@ -25,7 +25,7 @@ public class FileServlet extends HttpServlet {
 
     Carte carte = new Carte();
     Personnage personne = new Personnage();
-    String chemin = "C:/Users/leo/Documents/NetBeansProjects/Jeu/src/main/webapp/tp2_cartes-2.csv";
+    String chemin = "chemin/absolu/tp2_cartes-2.csv";
     Carte carteAAfficher;
     int[] positionAleatoire; //Les positions aléatoires
     String[] positionOccupables;
